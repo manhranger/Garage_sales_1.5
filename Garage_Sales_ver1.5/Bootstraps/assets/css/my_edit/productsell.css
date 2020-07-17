@@ -1,0 +1,13 @@
+#addressDetail textarea{
+    min-height: 80px;
+    min-width: 640px;
+}
+.form-tab {
+	padding:10px 15px !important;
+}
+.highlight-color{
+	color:#006;
+	font-size:20px !important;
+	background-color:rgba(224, 224, 224, 0.89);
+	border-radius: 5px;
+}

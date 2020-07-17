@@ -1,0 +1,26 @@
+.imageproduct {
+    width: 150px;
+    height: 100px;
+    float: left;
+	margin-right:13px;
+	background:white;
+	border: 1px solid #ccc;
+}
+.avatar-img{
+	object-fit: cover;
+	float:left;
+	margin-right:5px;
+	border-radius:100%;
+	width:20px; 
+	height:20px;
+}
+.btn-blue-sofm{
+	right:0;
+	bottom:15px;
+	transform: translateX(-20%);
+}
+.my-product-img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}

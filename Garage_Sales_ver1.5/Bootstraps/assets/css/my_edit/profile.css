@@ -1,0 +1,216 @@
+.btn-simple{
+	position: relative;
+	display: inline-block;
+	left: 50%;
+	transform: translate(-50%);
+	border:none;
+	background:none;
+}
+.div-option-sell-type{
+    text-align: right;
+	height:36px;
+}
+.div-group-infor{
+	width: 100%;
+	text-align: center;
+}
+.center{
+	position: relative;
+	display: inline-block;
+	left: 50%;
+	transform: translate(-50%);
+}
+.group-status{
+	height: 110px;
+	transform: translateY(-20%);
+}
+.my-div{
+	padding:0 5px 0 5px;
+	float:left;
+	width: 70%;
+	text-align: left;
+}
+.my-img{
+	width: 148px;
+	height: 98px;
+	object-fit: cover;
+	display: block;
+}
+.my-font{
+	font-family: "Source Sans Pro",
+	-apple-system,BlinkMacSystemFont,
+	"Segoe UI",Roboto,"Helvetica Neue",
+	Arial,sans-serif,"Apple Color Emoji",
+	"Segoe UI Emoji","Segoe UI Symbol";
+}
+.fa-caret-up .fa-caret-down{
+	font-size: 20px;
+	color:  gray;
+}
+.form-row{
+	margin-top:20px;
+}
+.item-bar{
+	height:110px;
+}
+.product-line{
+	border:0px;
+	border-right:1px solid #CCC;
+}
+.p-money-title{
+	margin-left:5px;
+	color: #d0021b;
+	font-size: 13px;
+	font-weight: 900;
+	margin:5px;
+	padding-left:10px;
+}
+.p-name-title{
+	margin-left:5px;
+	font-size:15px;
+	font-style:normal;
+}
+.p-status-title{
+	position: relative;
+	display: inline-block;
+	top: 30%;
+	transform: translateY(-50%);
+	left: 50%;
+	transform: translate(-50%);
+	text-align:center;
+	width: 100%;
+	
+}
+.p-success{
+	color: forestgreen;
+	font-weight: 600;
+}
+.p-fail{
+	color: gray;
+	font-weight: 600;
+}
+.h3-title{
+	font-weight: 550;
+	font-size: 14px;
+	margin:5px;
+	margin-bottom:25px;
+	padding-left:10px;
+}
+.padding-lr-none{
+	padding-left:0;
+	padding-right:0;
+}
+.starter-template {
+	padding-top:0px;
+}
+#show-money{
+	font-weight: bold;
+}
+.list-register-group{
+	padding-left:20%;
+}
+.vien-den{
+	border:1px solid black;
+}
+.imageproduct {
+    width: 150px;
+    height: 100px;
+    float: left;
+	margin-right:13px;
+	background:white;
+	border: 1px solid #ccc;
+}
+.img-avatar-infor{
+	margin-left: 10%;
+	margin-right: 10px;
+	object-fit: cover;
+	float:left;
+	border-radius:100px;
+}
+.btn-tab{
+	border:none;
+	background:none;
+	padding-top:5px;
+	padding-bottom:5px;
+	color: #337ab7;
+}
+.btn-tab-click{
+	font-size: 20px;
+	color: #006;
+}
+.btn-cancel-sofm{
+	color: #545b62;
+	background-color: #fff;
+	border-color: #545b62;
+	font-size: 11px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	line-height: 1.5;
+	width: 110px !important;
+	height: 28px !important;
+	border-radius: .25rem;
+	padding: .205rem .75rem;
+	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+	margin-top: 0px;
+	position: absolute;
+	right: 0;
+	bottom: 15px;
+}
+.btn-cancel-sofm:hover{
+	color: #fff;
+	background-color: #545b62;
+	border-color: #545b62;
+}
+.option-sell-type{
+	float:right;
+	width:20%;
+	margin-right: 5px;
+}
+.option-order-type{
+	float:right;
+	width:30%;
+	margin-right: 5px;
+}
+.tab-content{
+	margin:5px 0 5px 0;
+	padding:0 5px 0 5px;
+	min-height:400px;
+	text-align:left;
+}
+.tab-group-bar{
+	width:100%;
+	height:100%;
+	margin:5px 0 5px 0;
+	padding:0 5px 0 5px;
+	text-align:left;
+}
+.width1p4{
+	width:25%;
+	margin:5px 10px 5px 10px;
+	float:left;
+}
+@media (max-width: 991px){
+	.product-line{
+		border-right:0px !important;
+		border-bottom:1px solid #CCC !important;
+	}
+}
+@media (min-width:768px ) and (max-width: 991px){
+	.product-line{
+		border-right:0px !important;
+		border-bottom:1px solid #CCC !important;
+	}
+}
+@media (min-width:992px){
+	.product-line{
+		border:0px !important;
+		border-right:1px solid #CCC !important;
+		border-right-width: 80% !important;
+	}
+}
+@media (min-width:1200px){
+	.product-line{
+		border:0px;
+		border-right:1px solid #CCC;
+	}
+}
