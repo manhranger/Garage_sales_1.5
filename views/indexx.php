@@ -10,7 +10,7 @@ $_SESSION['namePage']="indexx";
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="NguyenThanhTung">
-    <link rel="icon" href="../../favicon.ico">
+    <link rel="icon" href="../Images/Icons/garage_sales.png">
 
     <title>Trang chủ</title>
 
@@ -66,7 +66,7 @@ $_SESSION['namePage']="indexx";
         <div class="starter-template <?php if($_SESSION["username"]!=null){ echo' hidden';} ?>" style="min-height:200px;height:auto;padding-top:5px;padding-bottom:5px">
        	  <div class="form-row" style="text-align:center;">
             <div class="form-group col-md-6" style="padding-left:0px;">
-              <img src="../Images/Categories/device (2).jpg" width="420" height="179" class="hiding-img">	
+              <img src="../Images/Categories/device.png" width="420" height="179" class="hiding-img">	
             </div>
             <div class="form-group col-md-6 text-center vertical-align">
               <p>Đăng nhập để không bỏ lỡ món hời giá tốt!</p>

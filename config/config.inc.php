@@ -1,11 +1,11 @@
 <?php
 	session_start();
-	$username="id11828412_db_sale_15";
-	$password="Vog}r}Cg9w5_iQE#";
+	$username = "root";
+	$password = "";
 	$host="localhost";
 	$database="id11828412_sale_15";
 	$connect=mysqli_connect($host,$username,$password,$database);
 	mysqli_set_charset($connect,"utf8");
-	if($connect!=true)
-		echo"die";
+	if($connect != true)
+		echo"connection fail!!";
 ?>
