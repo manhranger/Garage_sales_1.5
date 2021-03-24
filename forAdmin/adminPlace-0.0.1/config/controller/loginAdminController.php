@@ -1,7 +1,7 @@
 <?php
 	session_start();
 	error_reporting(E_ALL ^ E_NOTICE);  
-	include"config/config.inc.php";
+	include"../../config/config.inc.php";
 	//validate login
 	$sql="SELECT * FROM `admin`";
 	$excute = mysqli_query($connect,$sql);
@@ -11,7 +11,7 @@
 		$password=$_POST['password'];
 		while($temp = mysqli_fetch_assoc($excute))  
 		{
-			if($email==$temp["username"]&& $password==$temp["password"])
+			if($email==$temp["username"] && $password==$temp["password"])
 			{
 				//login success
 				$_SESSION["adminId"] = $temp["stt"];

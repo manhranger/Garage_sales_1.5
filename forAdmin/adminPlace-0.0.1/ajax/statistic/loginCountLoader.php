@@ -1,5 +1,5 @@
 <?php
-	include"../../config/config.inc.php";
+	include"../../../../config/config.inc.php";
 	//function 
 	function growthRate($connect,$monday,$sumLoginCount){
 		$sql = "SELECT COUNT(*) as `count` FROM `statistic` WHERE `dateTime` >= ".$monday."";	

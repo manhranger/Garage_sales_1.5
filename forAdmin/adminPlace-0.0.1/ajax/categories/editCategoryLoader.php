@@ -1,5 +1,5 @@
 <?php
-    require "../../config/config.inc.php";
+    include"../../../../config/config.inc.php";
     if($_POST["type"]=="editCategories"){
         $sql = "SELECT DISTINCT `productType` FROM `product_type`";
         $excute = mysqli_query($connect,$sql);

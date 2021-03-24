@@ -1,5 +1,5 @@
 <?php
-	require "../../config/config.inc.php";
+	include"../../../../config/config.inc.php";
 	function checkBox($kt,$productId){
 		if($kt==true){
 			return '

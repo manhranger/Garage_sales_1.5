@@ -1,7 +1,7 @@
 <?php
 	session_start();
 	error_reporting(E_ALL);
-	include"config/config.inc.php";
+	include"../../config/config.inc.php";
 	//check login.
 	if(isset($_SESSION["adminId"])===false){
 		header("location:login.php");
@@ -27,6 +27,8 @@
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
   <!--edit style-->
   <link rel="stylesheet" type="text/css" href="dist/css/mystyle.css">
+  <!--IConPAge-->
+  <link rel="icon" href="../../Images/Icons/garage_sales.png">
   
   <!-- REQUIRED SCRIPTS -->
 

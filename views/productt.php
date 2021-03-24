@@ -106,7 +106,7 @@
             </div>
           </div>
           <div id="myFilter" class="form-group" style="padding-left:13px;padding-right:13px;">
-            <div class="row" style="text-align:left;padding-left:30px;">
+            <div class="row" style="text-align:left;padding-left:30px;min-height:500px">
 				<?php
                     while($product = mysqli_fetch_assoc($products)){
 						$avatarImgPath=$product["avatarImgPath"];
